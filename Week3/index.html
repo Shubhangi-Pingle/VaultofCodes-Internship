@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="registration-form">
+       
+        <form>
+            <div class="heading">
+                <h1>REGISTRATION FORM</h1>
+            </div>
+            <div class="first_name">
+                <input type="text" placeholder="First Name" />
+            </div>
+            
+            <div class="last_name">
+                <input type="text" placeholder="Last  Name"   />
+            </div>
+            
+            <div class="email">
+                <input type="email" placeholder="Email Address" />
+            </div>
+            
+           <div class="password">
+            <input type="password" id="password" placeholder="Password"   />
+           </div>
+            
+           <div class="confirm_password">
+            <input type="password" id="confirm_password" placeholder="Confirm Password"  />
+            <p id="message"></p>
+            
+           </div>
+
+           <div class="birth_date">
+            <input type="date" onclick="checkPassword()" placeholder="Date of Birth" />
+            
+           </div>
+
+           <h4>Gender</h4>
+           <div class="gender">
+           
+            <div class="male">
+                <input type="radio" name="gender"  value="Male"/>Male
+            </div>
+            <div class="female">
+                <input type="radio" name="gender"  value="Female"/>Female
+            </div>
+            
+            <div class="others">
+                <input type="radio" name="gender"  value="Others"/>Others
+            </div>
+           
+           </div>
+
+           <div class="term_condition">
+            <input type="checkbox"/>I Agree to Terms and Conditions
+           </div>
+           <div class="button">
+            <input type="submit"  value="SUBMIT"/>
+           </div>
+            
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,183 @@
+*
+{   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{   height:100vh;
+    width:100%;
+    background-image: url("img3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.registration-form
+{
+    width:500px;
+    height: 600px;
+    border-radius: 10px;
+    border:2px solid black;
+    box-shadow: 1px 3px 10px 11px rgb(7, 7, 59);
+    margin-left: 500px;
+    margin-top: 60px;
+}
+.registration-form:hover
+{
+    border:2px solid aliceblue;
+}
+
+h1
+{
+    text-align: center;
+   
+    padding: 20px 20px 10px 20px;
+    
+}
+
+.first_name
+{
+    margin-top: 20px;
+    margin-left:70px;
+    
+}
+
+.first_name input
+{
+    height: 35px;
+    width:350px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.last_name
+{
+    margin-top: 20px;
+    margin-left:70px;
+}
+
+.last_name input
+{
+    height: 35px;
+    width:350px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.email
+{
+    margin-top: 20px;
+    margin-left:70px;
+}
+
+.email input
+{
+    height: 35px;
+    width:350px;
+    border-radius: 5px;
+    border: 2px solid black;
+
+    
+}
+
+.password
+{
+    margin-top: 20px;
+    margin-left:70px;
+}
+
+.password input
+{
+    height: 35px;
+    width:350px;
+    border-radius: 5px;
+    border: 2px solid black;
+    
+}
+
+.confirm_password
+{
+    margin-top: 20px;
+    margin-left:70px;
+}
+
+.confirm_password input
+{
+    height: 35px;
+    width:350px;
+    border-radius: 5px;
+    border: 2px solid black;
+    
+}
+
+.birth_date
+{
+    margin-top: 20px;
+    margin-left:70px;
+}
+
+.birth_date input
+{
+    height: 35px;
+    width:350px;
+    border-radius: 5px;
+    border: 2px solid black;
+    
+}
+
+p
+{
+    display: inline-block;
+    padding: 0px 10px;
+    font-size: larger;
+}
+
+.gender
+{
+    margin-top: 20px;
+    margin-left:70px;
+    font-weight: 600px;
+    font-size: larger;
+    width:350px;
+    display: flex;
+    justify-content: space-around;
+}
+
+h4
+{
+    
+        margin-top: 20px;
+        margin-left:70px;
+        font-size: larger;
+        font-weight: 700;
+    
+}
+.term_condition
+{
+    margin-top: 20px;
+    margin-left:70px;
+}
+
+.button
+{
+    margin-top: 20px;
+    margin-left:190px;
+}
+
+.button input
+{
+   height: 30px;
+   width: 100px;
+   background-color:#05195c;
+   color: aliceblue;
+   border: 2px solid aliceblue;
+}
+
+.button a
+{
+    height: 30px;
+   width: 100px;
+   background-color:#05195c;
+   color: aliceblue;
+   border: 2px solid aliceblue;
+}

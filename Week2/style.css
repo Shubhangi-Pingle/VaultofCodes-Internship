@@ -1,0 +1,141 @@
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo
+{
+    height: 100px;
+    width:200px;
+   margin-left: 550px;
+    background-image: url("companylogo.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+.margin
+{
+    height:100vh;
+    width:100px;
+    background-color: black;
+    display:inline-flex;
+    
+}
+
+.internship
+{
+    display: flex;
+}
+
+.heading
+{   position:relative;
+    left:0;
+    width:100%;
+    height:200px;
+    /* background-color: black; */
+   
+}
+
+.img
+{
+    background-image: url("AICTE1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100px;
+    width:100px;
+    margin-left: -100px;
+    margin-top: 40px;
+}
+
+.heading h1
+{
+    text-align: center;
+    margin-left: 80px;
+   padding: 30px;
+    
+}
+
+.block-1
+{
+    display: flex;
+    margin-top: 50px;
+}
+
+.block-2
+{
+    display: flex;
+    margin-top: 50px;
+}
+.webdev
+{
+    height:210px;
+    width:500px;
+    border:2px solid black;
+    list-style-position: inside;
+    margin-left: 80px;
+    padding: 30px;
+    border-radius: 15px;
+   
+}
+
+
+ul
+{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.appdev
+{
+    height:210px;
+    width:500px;
+    border:2px solid black;
+    margin-left: 150px;
+    list-style-position: inside;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.python
+{
+    height:210px;
+    width:500px;
+    border:2px solid black;
+    list-style-position: inside;
+    margin-left: 80px;
+    padding: 30px;
+    border-radius: 15px;
+   
+}
+.button
+{   
+    
+    margin-top: 20px;
+    margin-left: 180px;
+    background-color: blue;
+    height:40px;
+    width:120px;
+    padding: 7px;
+    text-align: center;
+    border-radius: 10px;
+    border:2px solid blue;
+   
+}
+
+.button a
+{
+    color:white;
+    
+    text-decoration: none;
+}
+
+.java
+{
+    height:210px;
+    width:500px;
+    border:2px solid black;
+    margin-left: 150px;
+    list-style-position: inside;
+    padding: 30px;
+    border-radius: 15px;
+}
